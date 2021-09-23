@@ -4,7 +4,7 @@
 
 <!-- Main API Types + API Types by service -->
 
-Before talking about *types* of **APIs** we need to understand first **what an API**?
+Before talking about *types* of **APIs** we need to understand first **what is an API**?
 
 ### What is an API?
 
@@ -12,16 +12,22 @@ An **API** which *stands* for **Application Programming Interface**, is a *type 
 
 ### Main API types
 
-- **Public APIs**: these *APIs* **don't** introduce  any **restrictions of access** because they are **fully available to the public**. (***moderate security and authentication***)
-- **Partner APIs**: these *APIs* **are not available** to the **public**, and *require* a **licese to access**. (***strong security and authentication***)
-- **Private APIs**: these *APIs* are for **internal use only**, it is used to *connect* **inhouse programs/systems together**. (***weak to none security and authentication***)
-- **Composite APIs**:these *APIs* are a **combination** of the **previous API types**. (***security and authentication depends on API choices***)
+- ***Public APIs***: these *APIs* **don't** introduce  any **restrictions of access** because they are **fully available to the public**. (***moderate security and authentication***)
+
+- ***Partner APIs***: these *APIs* **are not available** to the **public**, and *require* a **licese to access**. (***strong security and authentication***)
+
+- ***Private APIs***: these *APIs* are for **internal use only**, it is used to *connect* **inhouse programs/systems together**. (***weak to none security and authentication***)
+
+- ***Composite APIs***:these *APIs* are a **combination** of the **previous API types**. (***security and authentication depends on API choices***)
 
 ### Web service APIs
 
 - **SOAP**: which stands for **Simple Object Access Protocol**, is a **messaging protocol** that *allows* machines to *communicate* using **HTTP** and **XML format files** to create, update, recover, and delete records.
+
 - **REST**: which stands for **Representational State Transfer**, *isn't* a **protocol**, it's a *set* of **architectural principles**. This kind of *API* is **designed around resources**, and is **compatible with web services and database systems**.
+
 - **XML-RPC**: this is a **protocol** used to get **XML formatted data** that is **passed using HTTP**. (*RPC* stands for **Remote Procedure Call**)
+
 - **JSON-RPC**: same as **XML-RPC**, the *only difference* is that the *data* is **JSON formatted data**. (*RPC* stands for **Remote Procedure Call**)
 
 ## Benefits of APIs
