@@ -6,7 +6,7 @@
 
 *The Back-End server*:
 
-<img src="./images/server_js.PNG">
+<img src="./images/server_js.PNG" height="200px">
 <!-- ![server.js](./images/server_js.PNG) -->
 
 This is the back-end server that handels a couple of routes, to check if the server is active go to the route `/test`:
