@@ -3,20 +3,10 @@
 ## Back-End Testing
 
 ### 1. There should be an active Back-End server to call data from a 3rd party API
-|sdf|sdf|
+|Image|Description|
 |-----|------|
-|<img src="./images/server_js.PNG" height="200px">|*The Back-End server*:|
+|![server.js](./images/server_js.PNG)|*The Back-End server*:|
 |![test_route](./images/test_route.PNG)|This is the back-end server that handels a couple of routes, to check if the server is active go to the route `/test`, and as you can see the back-end server is active.|
-
-
-
-<!-- ![server.js](./images/server_js.PNG) -->
-
-
-
-
-
-
 
 ### 2. The server should retrieve data according to the query name from the 'WeatherBit' API when the '/weather' is called and send it as a response, holding the data of the name, latitude and longitude, also the weather forecast of the 6 upcoming days for that query name
 
