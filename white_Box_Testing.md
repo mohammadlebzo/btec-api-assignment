@@ -3,6 +3,7 @@
 ## Back-End Testing
 
 ### 1. There should be an active Back-End server to call data from a 3rd party API
+
 |Image|Description|
 |-----|------|
 |![server.js](./images/server_js.PNG)|*The Back-End server*|
@@ -39,19 +40,69 @@
 |-----|------|
 |![cacheObject](./images/cacheObject.PNG)|*Making a `cacheMemory` object in both the `weather module` and the `movies module` to cache all retrieved data form 3rd party API servers*|
 |![cacheRespons](./images/cacheRespons.PNG)|*Here I'm tesing if the `cacheMemory` object already contain data with that match the passed query parameter, if yes it should send it as a respons from the `cacheMemory` object and log it to the console, but if it doesn't contain it, it should log `cache memory is empty hit the api` and then respond with data from the 3rd party api server*|
-|![noCacheRespons](./images/noCacheRes.PNG)|console log if the data is not cached|
-|![yesCacheRes.PNG](./images/yesCacheRes.PNG)|console log if the data is cached|
+|![noCacheRespons](./images/noCacheRes.PNG)|*console log if the data is not cached*|
+|![yesCacheRes.PNG](./images/yesCacheRes.PNG)|*console log if the data is cached*|
 
 ### 6. Retrieved data should have a time stamp of the time that it was retrieved in
 
 |Image|Description|
 |-----|------|
-|![timeCode](./images/timeCode.PNG)|The code that get the time of retrieving the data|
-|![timeStamp.PNG](./images/timeStamp.PNG)|The server sends the time stamp as a parameter with the data|
+|![timeCode](./images/timeCode.PNG)|*The code that get the time of retrieving the data*|
+|![timeStamp.PNG](./images/timeStamp.PNG)|*The server sends the time stamp as a parameter with the data*|
 
 ## Front-End Testing
+
+### The front-end should retrieve data from the back-end to render
+
+|Image|Description|
+|-----|------|
+|![dataRetrievingCode](./images/dataRetrievingCode.PNG)|*The code that uses retrieves data from the back-end, and the back-end terminal*|
+|![dataRetrieved](./images/dataRetrieved.PNG)|*The result of retrieving data from the back-end*|
+
+### If there is an error in retrieving the data from the back-end there should be an alert with the text and the code status of the error
+
+|Image|Description|
+|-----|------|
+|![error1](./images/error1.PNG)|*An alert example were there is an error in the `URL` when retrieving `weather` data. When there is an error nothing renders but the alert until the error is fixed (status code: 404)*|
+|![error2](./images/error2.PNG)|*An alert example were there is an error in the `URL` when retrieving `movies` data. When there is an error nothing renders but the alert until the error is fixed (status code: 200)*|
+
+### All the query data and weather forcast data must be in a table
+
+|Image|Description|
+|-----|------|
+|![tableOfData](./images/tableOfData.PNG)|*The result of the retrieved data rendered in tables*|
+
+### There should be a map rendered that uses the latitude and longitude data from the beck-end
+
+|Image|Description|
+|-----|------|
+|![mapCode](./images/mapCode.PNG)|*In here the **latitude and longitude** where passed as props from the `app.js` from the **beck-end server***|
+|![mapRes](./images/mapRes.PNG)|*Here is the result where the **map** is using the **latitude and longitude** data from the beck-end and rendering it to the user*|
+
+### The movie data must be rendered to the user, and they should be related to the entered area
+
+|Image|Description|
+|-----|------|
+|![movieRender](./images/movieRender.PNG)|*The user entered `london` as the query parameter, and the app rendered these movies according to the retrieved data from the back-end*|
+
+### If the movie images were null or broken there must be a placeholder
+
+|Image|Description|
+|-----|------|
+|![brokenPlaceHolder](./images/brokenPlaceHolder.PNG)|*The user entered `amman` as the query parameter, and all the broken images where replaced by a broken image placehlder and the title of the movie*|
+
+### The time stamp of retrieving the data should be renderd for the user
+
+|Image|Description|
+|-----|------|
+|![tableOfData](./images/tableOfData.PNG)|*The data time of retrieval is rendered for the user at `Data Retrieved at: 18:22:7 pm`*|
 
 <!-- |Image|Description|
 |-----|------|
 |![](./images/)||
 |![](./images/)|| -->
+
+## References
+
+- Back-End GitHub Repo Link: [https://github.com/mohammadlebzo/city-explorer-api](https://github.com/mohammadlebzo/city-explorer-api)
+- Front-End GitHub Repo Link: [https://github.com/mohammadlebzo/city-explorer](https://github.com/mohammadlebzo/city-explorer)
