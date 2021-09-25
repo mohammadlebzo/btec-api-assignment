@@ -12,11 +12,20 @@
 
 |Image|Description|
 |-----|------|
-|![weatherRoute](./images/weatherRoute.PNG)|*Calling the `/weather` (the server will call the function associated with the call) **ex**: `server.get('/weather',weatherRoute);`*|
-|![passCityName](./images/passCityName.PNG)|*Calling the `/weather` and passing it the query parameter `city=Seattle`*|
-|![weatherResult](./images/weatherResult.PNG)|*The result of the call. We got the name, latitude and longitude, also the weather forecast as a JSON*|
+|![weatherModule](./images/weatherModule.PNG)|*Weather Module*|
+|![weatherRoute](./images/weatherRoute.PNG)|*Calling the `/weather` (**the server will call the function associated with the call**) **ex**: `server.get('/weather',weatherRoute);`*|
+|![passCityName](./images/passCityName.PNG)|*Calling the `/weather` and passing it the **query parameter** `city=Seattle`*|
+|![weatherResult](./images/weatherResult.PNG)|*The **result** of the call. We got the **name**, **latitude** and **longitude**, also the **weather forecast as a JSON***|
 
 ### 3. The server should retrieve data according to the query name from the 'TheMOvieDB' API when the '/movies' is called and send it as a response, holding the data of the top movies in the area of the query name
+
+|Image|Description|
+|-----|------|
+|![moviesModule](./images/moviesModule.PNG)|*Movies Module*|
+|![moviesRoute](./images/moviesRoute.PNG)|*Calling the `/movies` (**the server will call the function associated with the call**) **ex**: `server.get('/movies',moviesRoute);`*|
+|![passQuery](./images/passQuery.PNG)|*Calling the `/movies` and passing it the **query parameter** `query=london`*|
+|![moviesResult](./images/moviesResult.PNG)|*The **result** of the call. We got the **title**, **overview**, **avarage_votes**, **total_votes**, **image_url**, **popularity** and **release date a JSON**|
+
 
 ### 4. All calls other than '/weather' and '/movies' should be handled
 
