@@ -3,7 +3,7 @@
 ## Back-End Testing
 
 ### 1. There should be an active Back-End server to call data from a 3rd party API
-
+|sdf|sdf|
 |-----|------|
 |<img src="./images/server_js.PNG" height="200px">|*The Back-End server*:|
 |![test_route](./images/test_route.PNG)|This is the back-end server that handels a couple of routes, to check if the server is active go to the route `/test`, and as you can see the back-end server is active.|
