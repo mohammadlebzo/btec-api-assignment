@@ -35,7 +35,19 @@
 
 ### 5. All retrieved data should be cached to lower the number of hits on the 3rd party API server
 
+|Image|Description|
+|-----|------|
+|![cacheObject](./images/cacheObject.PNG)|*Making a `cacheMemory` object in both the `weather module` and the `movies module` to cache all retrieved data form 3rd party API servers*|
+|![cacheRespons](./images/cacheRespons.PNG)|*Here I'm tesing if the `cacheMemory` object already contain data with that match the passed query parameter, if yes it should send it as a respons from the `cacheMemory` object and log it to the console, but if it doesn't contain it, it should log `cache memory is empty hit the api` and then respond with data from the 3rd party api server*|
+|![noCacheRespons](./images/noCacheRes.PNG)|console log if the data is not cached|
+|![yesCacheRes.PNG](./images/yesCacheRes.PNG)|console log if the data is cached|
+
 ### 6. Retrieved data should have a time stamp of the time that it was retrieved in
+
+|Image|Description|
+|-----|------|
+|![timeCode](./images/timeCode.PNG)|The code that get the time of retrieving the data|
+|![timeStamp.PNG](./images/timeStamp.PNG)|The server sends the time stamp as a parameter with the data|
 
 ## Front-End Testing
 
