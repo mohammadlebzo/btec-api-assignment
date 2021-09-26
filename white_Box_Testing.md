@@ -104,5 +104,5 @@
 
 ## References
 
-- My Back-End GitHub Repo Link: [https://github.com/mohammadlebzo/city-explorer-api](https://github.com/mohammadlebzo/city-explorer-api)
-- My Front-End GitHub Repo Link: [https://github.com/mohammadlebzo/city-explorer](https://github.com/mohammadlebzo/city-explorer)
+- My Back-End GitHub Repo Link (city-explorer-api): [https://github.com/mohammadlebzo/city-explorer-api](https://github.com/mohammadlebzo/city-explorer-api)
+- My Front-End GitHub Repo Link (city-explorer): [https://github.com/mohammadlebzo/city-explorer](https://github.com/mohammadlebzo/city-explorer)
