@@ -4,11 +4,12 @@
 
 ### API Description
 
-Its an *API* that offers **Geocoding**, **Maps** and **Routing** for users.
+Its an *API* that offers **Geocoding**, **Maps** and **Routing** for users, meaning it is used to *retrieve* **longitude and latitude data for areas**, **static and live map images for areas**.
 
 ### API Usage
 
 This *API* was used to *retrieve* **map images** according to the **longitude and latitude data** that was collected from the **WeatherBit API** so we can *render* it all to the user.
+The *retrieved* data was **static map images** for the *areas* that *match* the **longitude and latitude data**, in a **png format**.
 
 ### API Endpoints/Request URLs
 
@@ -26,7 +27,7 @@ Its an *API* that allows it's users to *retrieve* the data of **current weather 
 
 ### API Usage
 
-This *API* was used to retrieve the **forecast data** for the **next 6 days**, also the **longitude and latitude data** for that place in order to **render it in a table** and show it to the user.
+This *API* was used to retrieve the **forecast data** for the **next 6 days**, also the **longitude and latitude data** for that place in order to **render it in a table** and show it to the user. The **retrieved data** was in **JSON format**
 
 ### API Endpoints/Request URLs
 
@@ -40,11 +41,12 @@ This *API* was used to retrieve the **forecast data** for the **next 6 days**, a
 
 ### API Description
 
-Its an *API* that **offers data and/or images of movies, TV shows and actors**.
+Its an *API* that **offers data and/or images of movies, TV shows and actors**. It also offers **ratings**, **views** and **reviews** for these *products*.
 
 ### API Usage
 
 This *API* was used to *retrieve data* of **movies** that **containe the entered query keyword within its properties** to *render* it's data in *cards* and show them to the user.
+The **retrieved data** was in a **JSON format**.
 
 ### API Endpoints/Request URLs
 
