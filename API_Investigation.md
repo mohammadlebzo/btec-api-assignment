@@ -56,13 +56,13 @@ This *API* was used to *retrieve data* of **movies** that **containe the entered
 
 ## Application Live Link (City Explorer Live Link)
 
-Link: [https://city-explorer-301d33-19013778.netlify.app](https://city-explorer-301d33-19013778.netlify.app)
+- Live Link: [https://city-explorer-301d33-19013778.netlify.app](https://city-explorer-301d33-19013778.netlify.app)
+
+- My Back-End GitHub Repo Link (city-explorer-api): [https://github.com/mohammadlebzo/city-explorer-api](https://github.com/mohammadlebzo/city-explorer-api)
+- My Front-End GitHub Repo Link (city-explorer): [https://github.com/mohammadlebzo/city-explorer](https://github.com/mohammadlebzo/city-explorer)
 
 ## References
 
 - LocationIQ: [https://locationiq.com/docs](https://locationiq.com/docs)
 - WeatherBit: [https://www.weatherbit.io/api](https://www.weatherbit.io/api)
 - TheMovieDB: [https://www.themoviedb.org/documentation/api](https://www.themoviedb.org/documentation/api)
-
-- My Back-End GitHub Repo Link (city-explorer-api): [https://github.com/mohammadlebzo/city-explorer-api](https://github.com/mohammadlebzo/city-explorer-api)
-- My Front-End GitHub Repo Link (city-explorer): [https://github.com/mohammadlebzo/city-explorer](https://github.com/mohammadlebzo/city-explorer)
