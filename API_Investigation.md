@@ -57,7 +57,7 @@ This *API* was used to *retrieve data* of **movies** that **containe the entered
 ## Application Live Link (City Explorer Live Link)
 
 - Live Link: [https://city-explorer-301d33-19013778.netlify.app](https://city-explorer-301d33-19013778.netlify.app)
-
+- Heroku Link(API server): [https://city-explorer-api-301d33-190.herokuapp.com/](https://city-explorer-api-301d33-190.herokuapp.com/)
 - My Back-End GitHub Repo Link (city-explorer-api): [https://github.com/mohammadlebzo/city-explorer-api](https://github.com/mohammadlebzo/city-explorer-api)
 - My Front-End GitHub Repo Link (city-explorer): [https://github.com/mohammadlebzo/city-explorer](https://github.com/mohammadlebzo/city-explorer)
 
